@@ -1,3 +1,4 @@
+'''intializes the LSM weights'''
 import numpy as np
 
 def initWeights1(LqWin, LqWlsm, in_conn_density, in_size, lam=9, inh_fr=0.2, Nx=10, Ny=10, Nz=10, init_Wlsm=True, W_lsm=None):
